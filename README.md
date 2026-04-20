@@ -249,3 +249,14 @@ Prefer dictionary-based `python -c` example shown above.
 
 ## 15. License
 For academic use. Add your institution-required license text if needed.
+
+## 16. Publish to GitHub
+If your local repository is already committed, publish with:
+
+```bash
+git remote add origin <YOUR_GITHUB_REPO_URL>
+git branch -M main
+git push -u origin main
+```
+
+If needed, first create a new repository on GitHub (empty repo, no README) and then run the commands above from this project root.
