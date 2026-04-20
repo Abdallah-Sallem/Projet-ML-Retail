@@ -1,0 +1,25 @@
+{
+  "target_column": "Churn",
+  "x_train_shape": [
+    3497,
+    137
+  ],
+  "x_test_shape": [
+    875,
+    137
+  ],
+  "best_model_name": "logistic_regression",
+  "best_cv_roc_auc": 0.999841646714035,
+  "best_test_metrics": {
+    "accuracy": 0.9977142857142857,
+    "precision": 1.0,
+    "recall": 0.993127147766323,
+    "f1": 0.996551724137931,
+    "roc_auc": 0.9999293885044486
+  },
+  "best_params": {
+    "model__C": 1.0,
+    "model__solver": "lbfgs",
+    "pca__n_components": 0.99
+  }
+}

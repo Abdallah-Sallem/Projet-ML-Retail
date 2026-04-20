@@ -1,0 +1,85 @@
+{
+  "raw_file": "data\\raw\\retail_customers_COMPLETE_CATEGORICAL.csv",
+  "rows_raw": 4372,
+  "columns_raw": 52,
+  "rows_cleaned": 4372,
+  "columns_cleaned": 55,
+  "target_column": "Churn",
+  "target_mapping": {
+    "0": 0,
+    "1": 1
+  },
+  "x_train_shape": [
+    3497,
+    137
+  ],
+  "x_test_shape": [
+    875,
+    137
+  ],
+  "preprocessing_summary": {
+    "mean_imputed_numeric": [
+      "CustomerID",
+      "CustomerTenureDays",
+      "FirstPurchaseDaysAgo",
+      "PreferredDayOfWeek",
+      "PreferredHour",
+      "PreferredMonth",
+      "RegistrationYear",
+      "RegistrationMonth",
+      "RegistrationDayOfWeek",
+      "TenureDays",
+      "LastLoginIP_first_octet"
+    ],
+    "median_imputed_numeric": [
+      "Recency",
+      "Frequency",
+      "MonetaryTotal",
+      "MonetaryAvg",
+      "MonetaryStd",
+      "MonetaryMin",
+      "MonetaryMax",
+      "TotalQuantity",
+      "AvgQuantityPerTransaction",
+      "MinQuantity",
+      "MaxQuantity",
+      "WeekendPurchaseRatio",
+      "AvgDaysBetweenPurchases",
+      "UniqueProducts",
+      "UniqueDescriptions",
+      "AvgProductsPerTransaction",
+      "UniqueCountries",
+      "NegativeQuantityCount",
+      "ZeroPriceCount",
+      "CancelledTransactions",
+      "ReturnRatio",
+      "TotalTransactions",
+      "UniqueInvoices",
+      "AvgLinesPerInvoice",
+      "SupportTicketsCount",
+      "SatisfactionScore",
+      "LastLoginIP_is_private"
+    ],
+    "knn_imputed_numeric": [
+      "Age"
+    ],
+    "nominal_encoded": [
+      "NewsletterSubscribed",
+      "RFMSegment",
+      "AgeCategory",
+      "SpendingCategory",
+      "CustomerType",
+      "FavoriteSeason",
+      "PreferredTimeOfDay",
+      "Region",
+      "LoyaltyLevel",
+      "WeekendPreference",
+      "BasketSizeCategory",
+      "ProductDiversity",
+      "Gender",
+      "AccountStatus",
+      "Country"
+    ],
+    "ordinal_encoded": []
+  }
+}

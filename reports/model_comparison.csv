@@ -1,0 +1,37 @@
+model_name,cv_best_score,best_params,test_accuracy,test_precision,test_recall,test_f1,test_roc_auc,classification_report
+logistic_regression,0.999841646714035,"{'model__C': 1.0, 'model__solver': 'lbfgs', 'pca__n_components': 0.99}",0.9977142857142857,1.0,0.993127147766323,0.996551724137931,0.9999293885044486,"              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       584
+           1       1.00      0.99      1.00       291
+
+    accuracy                           1.00       875
+   macro avg       1.00      1.00      1.00       875
+weighted avg       1.00      1.00      1.00       875
+"
+gradient_boosting,0.9971105214707496,"{'model__learning_rate': 0.1, 'model__max_depth': 3, 'model__n_estimators': 200, 'pca__n_components': 0.95}",0.9805714285714285,0.9928057553956835,0.9484536082474226,0.9701230228471002,0.9989349432754319,"              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.99       584
+           1       0.99      0.95      0.97       291
+
+    accuracy                           0.98       875
+   macro avg       0.98      0.97      0.98       875
+weighted avg       0.98      0.98      0.98       875
+"
+knn,0.9940923374348379,"{'model__n_neighbors': 21, 'model__weights': 'uniform', 'pca__n_components': 0.99}",0.96,1.0,0.8797250859106529,0.9360146252285192,0.997575671986066,"              precision    recall  f1-score   support
+
+           0       0.94      1.00      0.97       584
+           1       1.00      0.88      0.94       291
+
+    accuracy                           0.96       875
+   macro avg       0.97      0.94      0.95       875
+weighted avg       0.96      0.96      0.96       875
+"
+random_forest,0.9951847368885444,"{'model__max_depth': 20, 'model__min_samples_split': 2, 'model__n_estimators': 400, 'pca__n_components': 0.95}",0.9645714285714285,0.9924242424242424,0.9003436426116839,0.9441441441441442,0.9973285317516359,"              precision    recall  f1-score   support
+
+           0       0.95      1.00      0.97       584
+           1       0.99      0.90      0.94       291
+
+    accuracy                           0.96       875
+   macro avg       0.97      0.95      0.96       875
+weighted avg       0.97      0.96      0.96       875
+"
